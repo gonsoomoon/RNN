@@ -1,0 +1,108 @@
+
+Tutorial: TensorFlow RNN Tutorial
+	https://svds.com/tensorflow-rnn-tutorial/
+
+# Clone GitHub repository
+git clone https://github.com/silicon-valley-data-science/RNN-Tutorial
+# Export current path to the profile
+echo "export RNN_TUTORIAL=${PWD}" >> ~/.profile
+echo "export PYTHONPATH=${PWD}/src:${PYTHONPATH}" >> ~/.profile
+source ~/.profile 
+# Create virtual environment
+conda create --name tf-rnn python=3
+# Activate
+source activate tf-rnn
+	cat requirements.txt 
+	mako==1.0.6
+	matplotlib==2.0.0
+	numpy==1.12.0
+	protobuf==3.2.0
+	python-speech-features==0.5
+	pyyaml==3.12
+	pyxdg==0.25
+	requests==2.13.0
+	scipy==0.18.1
+	sox==1.2.6
+	Tree==0.1b6
+	click==6.7
+
+# Install S/W
+(tf-rnn) @> pip install -r requirements.txt 
+# In the case of having an error, run the following code
+(tf-rnn) @> pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.0.1-py3-none-any.whl --ignore-installed
+
+# Run network init file loading configuration including hyper-parameters
+(tf-rnn) @> python /Users/gonsoomoon/Documents/DeepLearning/rnn/helloVoice/RNN-Tutorial/src/tests/train_framework/tf_train_ctc_test.py 
+
+# Run environment test file
+(tf-rnn) @> python /Users/gonsoomoon/Documents/DeepLearning/rnn/helloVoice/RNN-Tutorial/src/tests/train_framework/tf_train_ctc_test.py 
+
+# Run train_test file
+(tf-rnn) @> python $RNN_TUTORIAL/src/train_framework/tf_train_ctc.py
+ 
+ 2017-06-26 18:19:38,118 [INFO] tf_train_ctc.py: Training model: develop_BiRNN_20170626-181938
+        Train examples: 5
+        Dev examples: 2
+        Test examples: 2
+        Epochs: 100
+        Training batch size: 2
+        Batches per epoch: 3
+2017-06-26 18:19:43,908 [INFO] tf_train_ctc.py: 
+
+===========Run training epoch===========
+
+2017-06-26 18:19:56,227 [DEBUG] tf_train_ctc.py: Batch cost: 298.88 | Train cost: 597.76
+2017-06-26 18:19:59,889 [DEBUG] tf_train_ctc.py: Label error rate: 1.94
+2017-06-26 18:20:22,182 [DEBUG] tf_train_ctc.py: Batch cost: 1030.59 | Train cost: 2658.93
+2017-06-26 18:20:28,705 [DEBUG] tf_train_ctc.py: Label error rate: 3.75
+2017-06-26 18:20:42,100 [DEBUG] tf_train_ctc.py: Batch cost: 376.84 | Train cost: 3412.60
+2017-06-26 18:20:43,620 [DEBUG] tf_train_ctc.py: Label error rate: 5.75
+2017-06-26 18:20:45,284 [INFO] tf_train_ctc.py: Epoch 1/100, train_cost: 682.520,                    train_ler: 1.150, time: 61.38 sec
+2017-06-26 18:21:07,323 [DEBUG] tf_train_ctc.py: Batch cost: 546.58 | Train cost: 1093.15
+2017-06-26 18:21:13,867 [DEBUG] tf_train_ctc.py: Label error rate: 2.00
+2017-06-26 18:21:27,113 [DEBUG] tf_train_ctc.py: Batch cost: 351.31 | Train cost: 1795.78
+2017-06-26 18:21:31,068 [DEBUG] tf_train_ctc.py: Label error rate: 3.89
+2017-06-26 18:21:44,793 [DEBUG] tf_train_ctc.py: Batch cost: 332.08 | Train cost: 2459.93
+2017-06-26 18:21:46,310 [DEBUG] tf_train_ctc.py: Label error rate: 5.72
+2017-06-26 18:21:47,920 [INFO] tf_train_ctc.py: Epoch 2/100, train_cost: 491.986,                    train_ler: 1.145, time: 62.62 sec
+2017-06-26 18:21:51,898 [DEBUG] tf_train_ctc.py: Label error rate: 1.85
+2017-06-26 18:21:55,875 [INFO] tf_train_ctc.py: Batch 0, file 0
+2017-06-26 18:21:55,875 [INFO] tf_train_ctc.py: Original: how delightful the grass smells
+2017-06-26 18:21:55,875 [INFO] tf_train_ctc.py: Decoded:  eee
+2017-06-26 18:21:55,875 [INFO] tf_train_ctc.py: Batch 0, file 1
+2017-06-26 18:21:55,875 [INFO] tf_train_ctc.py: Original: that boy hears too much of what is talked about here
+2017-06-26 18:21:55,875 [INFO] tf_train_ctc.py: Decoded:  oee
+2017-06-26 18:21:59,905 [INFO] tf_train_ctc.py: Validation Label Error Rate: 0.9227667450904846
+2017-06-26 18:22:02,129 [INFO] tf_train_ctc.py: Model saved: /Users/gonsoomoon/Documents/DeepLearning/rnn/helloVoice/RNN-Tutorial/models/nn/debug_models/session/develop_BiRNN_20170626-181938/model.ckpt-1
+
+2017-06-26 20:31:32,741 [INFO] tf_train_ctc.py: Epoch 99/100, train_cost: 0.632,                    train_ler: 0.013, time: 69.34 sec
+2017-06-26 20:31:36,760 [DEBUG] tf_train_ctc.py: Label error rate: 1.52
+2017-06-26 20:31:40,793 [INFO] tf_train_ctc.py: Batch 0, file 0
+2017-06-26 20:31:40,793 [INFO] tf_train_ctc.py: Original: how delightful the grass smells
+2017-06-26 20:31:40,793 [INFO] tf_train_ctc.py: Decoded:  il  eaahe fist eeniwigehtheh 
+2017-06-26 20:31:40,794 [INFO] tf_train_ctc.py: Batch 0, file 1
+2017-06-26 20:31:40,794 [INFO] tf_train_ctc.py: Original: that boy hears too much of what is talked about here
+2017-06-26 20:31:40,794 [INFO] tf_train_ctc.py: Decoded:  t to t e hpes heln eemphe o__
+2017-06-26 20:31:44,862 [INFO] tf_train_ctc.py: Validation Label Error Rate: 0.7620967626571655
+2017-06-26 20:31:57,681 [DEBUG] tf_train_ctc.py: Batch cost: 0.51 | Train cost: 1.02
+2017-06-26 20:32:01,431 [DEBUG] tf_train_ctc.py: Label error rate: 0.00
+2017-06-26 20:32:24,076 [DEBUG] tf_train_ctc.py: Batch cost: 0.07 | Train cost: 1.16
+2017-06-26 20:32:30,816 [DEBUG] tf_train_ctc.py: Label error rate: 0.00
+2017-06-26 20:32:45,322 [DEBUG] tf_train_ctc.py: Batch cost: 1.04 | Train cost: 3.23
+2017-06-26 20:32:46,812 [DEBUG] tf_train_ctc.py: Label error rate: 0.00
+2017-06-26 20:32:48,387 [INFO] tf_train_ctc.py: Epoch 100/100, train_cost: 0.645,                    train_ler: 0.000, time: 63.52 sec
+2017-06-26 20:32:51,020 [INFO] tf_train_ctc.py: Model saved: /Users/gonsoomoon/Documents/DeepLearning/rnn/helloVoice/RNN-Tutorial/models/nn/debug_models/session/develop_BiRNN_20170626-181938/model.ckpt-99
+2017-06-26 20:32:51,020 [INFO] tf_train_ctc.py: Training complete, total duration: 133.12 min
+2017-06-26 20:32:51,020 [INFO] tf_train_ctc.py: 
+===========Decoding test data===========
+
+2017-06-26 20:32:57,358 [DEBUG] tf_train_ctc.py: Label error rate: 1.66
+2017-06-26 20:33:03,757 [INFO] tf_train_ctc.py: Batch 0, file 0
+2017-06-26 20:33:03,757 [INFO] tf_train_ctc.py: Original: and i should begin with a short homily on soliloquy
+2017-06-26 20:33:03,757 [INFO] tf_train_ctc.py: Decoded:   auninnenpfuth ehe e o____________
+2017-06-26 20:33:03,757 [INFO] tf_train_ctc.py: Batch 0, file 1
+2017-06-26 20:33:03,757 [INFO] tf_train_ctc.py: Original: it is the language of wretchedness
+2017-06-26 20:33:03,757 [INFO] tf_train_ctc.py: Decoded:  t t  ht tote  the  h f o g o t  ne
+2017-06-26 20:33:10,180 [INFO] tf_train_ctc.py: Test Label Error Rate: 0.8284313678741455
+
+
