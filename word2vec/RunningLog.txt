@@ -1,0 +1,246 @@
+###############################
+#This is a log of result
+###############################
+
+f-rnn) @> python word2vec_basic.py
+Found and verified text8.zip
+Data size 17005207
+Most common words (+UNK) [['UNK', 418391], ('the', 1061396), ('of', 593677), ('and', 416629), ('one', 411764)]
+Sample data [5234, 3081, 12, 6, 195, 2, 3134, 46, 59, 156] ['anarchism', 'originated', 'as', 'a', 'term', 'of', 'abuse', 'first', 'used', 'against']
+3081 originated -> 5234 anarchism
+3081 originated -> 12 as
+12 as -> 6 a
+12 as -> 3081 originated
+6 a -> 12 as
+6 a -> 195 term
+195 term -> 2 of
+195 term -> 6 a
+Initialized
+Aveerage loss at step  0  :   295.767852783
+Nearest to used:  stretch, maffei, mcgwire, defeats, moran, embarks, iast, prototypical,
+Nearest to of:  blowfish, anemometers, septuagint, roulette, world, lockwood, traveler, gases,
+Nearest to history:  technocrats, wrench, bannister, thymine, cooperstown, forged, jehoahaz, ajanta,
+Nearest to there:  jobs, catamarans, nineties, soils, davey, nicephorus, credibility, marpol,
+Nearest to in:  kristina, nosferatu, secures, plugs, lichens, fpu, quin, aai,
+Nearest to three:  gonzales, speculating, bottled, spinal, headshot, dem, spells, send,
+Nearest to also:  hani, mouton, sverdlovsk, housing, kamehameha, recursion, fountainhead, steadily,
+Nearest to have:  kazan, fushimi, dembski, insuring, carlton, installer, symbolize, sancti,
+Nearest to d:  franconia, juror, look, evolutionism, scofield, barth, kaposi, judeo,
+Nearest to state:  ethos, feeble, segregated, ackerman, avatar, danzig, isadora, manatus,
+Nearest to time:  djibouti, inoculation, unrestricted, traceable, comprehend, chili, tempos, jebel,
+Nearest to more:  roo, luz, chronicon, monotheistic, sicily, strength, synge, impeller,
+Nearest to new:  venice, aventine, pictorial, analogs, garry, erfurt, deuterium, redefinition,
+Nearest to no:  trick, hurried, undeveloped, nuances, subspace, ns, inflationary, viral,
+Nearest to five:  idempotent, voip, propositional, ibrahim, ammianus, magistrates, smokers, weston,
+Nearest to if:  elsewhere, micronation, automation, myelogenous, peers, steven, exhumed, replied,
+Aveerage loss at step  2000  :   113.560505644
+Aveerage loss at step  4000  :   52.9161752603
+Aveerage loss at step  6000  :   33.5301579866
+Aveerage loss at step  8000  :   23.3718893292
+Aveerage loss at step  10000  :   17.7364842007
+Nearest to used:  coke, bckgr, stretch, null, separation, generally, archie, apollo,
+Nearest to of:  in, and, for, vocals, nine, s, during, zero,
+Nearest to history:  bckgr, retained, force, lnot, UNK, cooperstown, biscuit, qutb,
+Nearest to there:  jobs, basins, molinari, he, desert, soils, mosque, hold,
+Nearest to in:  and, of, on, as, for, with, by, UNK,
+Nearest to three:  one, nine, four, zero, five, bckgr, eight, archie,
+Nearest to also:  bckgr, canaris, youth, peasantry, phi, described, zionism, secular,
+Nearest to have:  orwell, milne, carthage, de, basins, did, mind, dangerous,
+Nearest to d:  look, lymphoma, calgary, universe, nine, am, kaposi, upon,
+Nearest to state:  ethos, california, feeble, domestic, departments, phi, formic, villages,
+Nearest to time:  agave, values, yeast, tens, tat, rods, earlier, jebel,
+Nearest to more:  strength, lymphoma, under, sicily, strategy, language, implementing, air,
+Nearest to new:  venice, tunnel, louisiana, bitumen, james, theme, first, semitism,
+Nearest to no:  trick, autobiography, calcium, viral, stored, phi, created, goes,
+Nearest to five:  nine, two, zero, altenberg, archie, basins, one, six,
+Nearest to if:  elsewhere, steven, originating, austin, coke, goal, bckgr, peers,
+Aveerage loss at step  12000  :   13.9962542583
+Aveerage loss at step  14000  :   11.9266733918
+Aveerage loss at step  16000  :   9.89645690417
+Aveerage loss at step  18000  :   8.52130535531
+Aveerage loss at step  20000  :   8.03141055751
+Nearest to used:  coke, operatorname, bckgr, null, separation, agouti, stretch, moran,
+Nearest to of:  and, in, for, nine, agouti, eight, circ, zero,
+Nearest to history:  retained, bckgr, vaccines, dasyprocta, cooperstown, asylum, force, posted,
+Nearest to there:  he, soils, it, jobs, they, dasyprocta, circ, nicephorus,
+Nearest to in:  and, on, for, of, with, from, at, nine,
+Nearest to three:  five, four, eight, nine, zero, two, six, seven,
+Nearest to also:  peasantry, UNK, which, canaris, bckgr, not, described, it,
+Nearest to have:  be, had, carthage, mugwort, was, did, agouti, are,
+Nearest to d:  b, lymphoma, look, universe, juror, and, dasyprocta, upon,
+Nearest to state:  ethos, feeble, california, villages, phi, formic, domestic, ptolemy,
+Nearest to time:  circ, agave, values, yeast, counsel, agouti, amara, trinitarian,
+Nearest to more:  sicily, chronicon, monotheistic, strength, tds, public, corollary, under,
+Nearest to new:  analogs, strands, louisiana, deuterium, venice, agouti, pictorial, james,
+Nearest to no:  trick, who, calcium, and, autobiography, viral, goes, mugwort,
+Nearest to five:  nine, eight, zero, six, two, three, four, dasyprocta,
+Nearest to if:  elsewhere, circ, steven, austin, originating, blot, drum, exhumed,
+Aveerage loss at step  22000  :   7.00848131859
+Aveerage loss at step  24000  :   6.85372516763
+Aveerage loss at step  26000  :   6.76904716527
+Aveerage loss at step  28000  :   6.36920818555
+Aveerage loss at step  30000  :   5.89963214421
+Nearest to used:  coke, operatorname, mishnayot, bckgr, null, agouti, moran, archie,
+Nearest to of:  and, in, for, during, nine, from, eight, circ,
+Nearest to history:  bckgr, retained, UNK, vaccines, posted, dasyprocta, force, cooperstown,
+Nearest to there:  he, it, they, soils, abet, dasyprocta, which, circ,
+Nearest to in:  at, and, on, for, by, abet, from, of,
+Nearest to three:  five, four, seven, eight, two, six, nine, zero,
+Nearest to also:  it, which, not, who, canaris, bckgr, there, operatorname,
+Nearest to have:  had, be, are, has, were, carthage, milne, agouti,
+Nearest to d:  b, and, lymphoma, one, universe, look, trinomial, juror,
+Nearest to state:  ethos, feeble, airshow, california, villages, rites, ptolemy, khz,
+Nearest to time:  counsel, amalthea, circ, yeast, trinitarian, values, umpire, surgeon,
+Nearest to more:  sicily, tds, luz, monotheistic, only, chronicon, implementing, corollary,
+Nearest to new:  analogs, louisiana, pictorial, strands, agouti, deuterium, james, tunnel,
+Nearest to no:  who, trick, and, calcium, stored, mugwort, commissions, phi,
+Nearest to five:  eight, four, six, three, nine, zero, seven, two,
+Nearest to if:  elsewhere, circ, steven, blot, where, originating, siding, inferences,
+Aveerage loss at step  32000  :   5.96938062716
+Aveerage loss at step  34000  :   5.68908806312
+Aveerage loss at step  36000  :   5.75959191203
+Aveerage loss at step  38000  :   5.51459656453
+Aveerage loss at step  40000  :   5.26542324138
+Nearest to used:  coke, operatorname, mishnayot, moran, bckgr, agouti, null, archie,
+Nearest to of:  in, and, for, zero, same, circ, agouti, payload,
+Nearest to history:  bckgr, posted, dasyprocta, vaccines, retained, force, recitative, benchmarks,
+Nearest to there:  it, he, they, soils, which, kriol, often, abet,
+Nearest to in:  and, on, at, from, abet, of, nine, dasyprocta,
+Nearest to three:  four, five, six, seven, eight, two, zero, one,
+Nearest to also:  which, it, not, who, operatorname, sometimes, canaris, albury,
+Nearest to have:  had, has, be, are, were, carthage, vectors, deciphered,
+Nearest to d:  b, UNK, lymphoma, and, nine, juror, am, universe,
+Nearest to state:  feeble, ethos, airshow, california, villages, rites, ptolemy, tze,
+Nearest to time:  counsel, amalthea, circ, oscillation, agouti, surgeon, umpire, tens,
+Nearest to more:  only, monotheistic, corollary, sicily, tds, implementing, strength, luz,
+Nearest to new:  pictorial, strands, agouti, louisiana, analogs, james, bitumen, deuterium,
+Nearest to no:  trick, who, a, calcium, stored, olof, and, phi,
+Nearest to five:  four, three, six, eight, seven, zero, two, nine,
+Nearest to if:  where, elsewhere, circ, blot, although, steven, is, can,
+Aveerage loss at step  42000  :   5.36561440921
+Aveerage loss at step  44000  :   5.23308817518
+Aveerage loss at step  46000  :   5.21836142457
+Aveerage loss at step  48000  :   5.23320838809
+Aveerage loss at step  50000  :   4.96731584024
+Nearest to used:  coke, operatorname, mishnayot, moran, bckgr, agouti, found, prototypical,
+Nearest to of:  in, for, circ, from, same, and, agouti, s,
+Nearest to history:  bckgr, thymine, dasyprocta, posted, vaccines, retained, mehmed, cooperstown,
+Nearest to there:  it, they, he, soils, often, kriol, which, abet,
+Nearest to in:  at, on, from, abet, during, and, of, eight,
+Nearest to three:  four, six, five, seven, two, eight, one, dasyprocta,
+Nearest to also:  which, it, not, who, often, sometimes, there, now,
+Nearest to have:  had, be, has, are, were, carthage, deciphered, vectors,
+Nearest to d:  b, UNK, am, lymphoma, juror, universe, dasyprocta, paddington,
+Nearest to state:  ethos, feeble, airshow, segregated, villages, california, hook, rites,
+Nearest to time:  yoannis, counsel, circ, amalthea, oscillation, umpire, agouti, day,
+Nearest to more:  less, monotheistic, sicily, corollary, bombers, implementing, most, acapulco,
+Nearest to new:  strands, kapoor, agouti, pictorial, analogs, louisiana, bitumen, james,
+Nearest to no:  trick, who, a, olof, calcium, commissions, stored, and,
+Nearest to five:  six, four, three, seven, eight, two, dasyprocta, zero,
+Nearest to if:  where, circ, elsewhere, although, when, blot, but, bckgr,
+Aveerage loss at step  52000  :   5.05716180301
+Aveerage loss at step  54000  :   5.17963122272
+Aveerage loss at step  56000  :   5.04506763661
+Aveerage loss at step  58000  :   5.06326470566
+Aveerage loss at step  60000  :   4.95478878593
+Nearest to used:  coke, operatorname, moran, mishnayot, found, bckgr, agouti, microsite,
+Nearest to of:  in, for, same, and, circ, nine, agouti, microsite,
+Nearest to history:  bckgr, dasyprocta, mehmed, posted, thymine, asylum, bolster, vaccines,
+Nearest to there:  it, they, he, which, often, soils, but, kriol,
+Nearest to in:  at, on, from, during, abet, and, of, honeycomb,
+Nearest to three:  four, five, six, two, eight, seven, ursus, dasyprocta,
+Nearest to also:  which, it, not, who, often, now, sometimes, originally,
+Nearest to have:  had, has, were, are, be, microsite, vectors, deciphered,
+Nearest to d:  b, UNK, am, eight, lymphoma, universe, seven, paddington,
+Nearest to state:  feeble, ethos, airshow, villages, segregated, california, ptolemy, rites,
+Nearest to time:  yoannis, amalthea, circ, counsel, oscillation, agouti, umpire, bouvet,
+Nearest to more:  less, most, monotheistic, ursus, sicily, acapulco, numa, corollary,
+Nearest to new:  joram, agouti, kapoor, strands, sudden, pictorial, analogs, bitumen,
+Nearest to no:  trick, who, any, a, olof, stored, calcium, phi,
+Nearest to five:  six, four, eight, three, seven, zero, two, nine,
+Nearest to if:  where, when, although, circ, ursus, is, wct, but,
+Aveerage loss at step  62000  :   5.00864246547
+Aveerage loss at step  64000  :   4.8394345625
+Aveerage loss at step  66000  :   4.58406010044
+Aveerage loss at step  68000  :   4.97036436796
+Aveerage loss at step  70000  :   4.89687017584
+Nearest to used:  coke, operatorname, agouti, microsite, mishnayot, found, bckgr, moran,
+Nearest to of:  and, in, circ, same, for, keto, microsite, agouti,
+Nearest to history:  bckgr, dasyprocta, mehmed, ursus, recitative, barium, asylum, bolster,
+Nearest to there:  they, it, he, often, kriol, these, soils, which,
+Nearest to in:  at, during, on, abet, and, from, microcebus, archie,
+Nearest to three:  four, five, six, eight, two, seven, nine, microcebus,
+Nearest to also:  which, often, now, it, not, who, sometimes, still,
+Nearest to have:  had, has, are, were, be, microsite, deciphered, vma,
+Nearest to d:  b, UNK, seven, polyurethane, am, paddington, nine, lymphoma,
+Nearest to state:  airshow, feeble, ethos, ptolemy, cebus, villages, khz, kids,
+Nearest to time:  yoannis, microcebus, amalthea, oscillation, counsel, circ, umpire, agouti,
+Nearest to more:  less, most, corollary, monotheistic, acapulco, microcebus, ursus, numa,
+Nearest to new:  joram, agouti, kapoor, strands, microcebus, sudden, stylus, pictorial,
+Nearest to no:  trick, any, a, deontology, olof, segregated, who, stored,
+Nearest to five:  four, six, three, eight, seven, nine, two, zero,
+Nearest to if:  where, when, although, circ, ursus, is, wct, but,
+Aveerage loss at step  72000  :   4.75822459209
+Aveerage loss at step  74000  :   4.79266220868
+Aveerage loss at step  76000  :   4.7331848073
+Aveerage loss at step  78000  :   4.80651589787
+Aveerage loss at step  80000  :   4.78409107715
+Nearest to used:  coke, found, operatorname, known, microsite, agouti, mishnayot, moran,
+Nearest to of:  in, circ, same, agouti, nine, microsite, budweiser, mitral,
+Nearest to history:  bckgr, list, dasyprocta, mehmed, djs, asylum, barium, posted,
+Nearest to there:  they, it, he, often, these, which, kriol, sometimes,
+Nearest to in:  during, abet, microcebus, at, dasyprocta, nine, ursus, from,
+Nearest to three:  four, two, five, six, seven, eight, dasyprocta, microcebus,
+Nearest to also:  which, often, now, sometimes, still, it, who, not,
+Nearest to have:  had, has, were, are, be, premierships, by, microsite,
+Nearest to d:  b, UNK, seven, am, n, bracing, four, polyurethane,
+Nearest to state:  feeble, khz, kids, cebus, airshow, ethos, agouti, country,
+Nearest to time:  microcebus, yoannis, agouti, circ, oscillation, amalthea, cebus, counsel,
+Nearest to more:  less, most, very, corollary, carabiners, monotheistic, acapulco, numa,
+Nearest to new:  joram, agouti, kapoor, analogs, strands, microcebus, sudden, pictorial,
+Nearest to no:  any, trick, a, deontology, olof, commissions, stored, segregated,
+Nearest to five:  four, six, seven, eight, three, zero, nine, two,
+Nearest to if:  when, where, although, circ, ursus, is, since, wct,
+Aveerage loss at step  82000  :   4.77386686558
+Aveerage loss at step  84000  :   4.76112067187
+Aveerage loss at step  86000  :   4.77364383614
+Aveerage loss at step  88000  :   4.7542943089
+Aveerage loss at step  90000  :   4.72608733118
+Nearest to used:  found, known, operatorname, agouti, microsite, coke, mishnayot, archie,
+Nearest to of:  in, same, circ, globemaster, including, budweiser, from, nine,
+Nearest to history:  list, bckgr, dasyprocta, mehmed, barium, asylum, ursus, recitative,
+Nearest to there:  they, it, he, often, sometimes, which, these, kriol,
+Nearest to in:  at, during, from, on, and, globemaster, abet, of,
+Nearest to three:  four, five, two, seven, six, eight, one, dasyprocta,
+Nearest to also:  often, which, now, sometimes, still, not, originally, it,
+Nearest to have:  had, has, are, were, be, premierships, microsite, by,
+Nearest to d:  b, UNK, n, six, am, jati, juror, polyurethane,
+Nearest to state:  feeble, cebus, agouti, kids, leipzig, khz, jabbar, airshow,
+Nearest to time:  yoannis, microcebus, amalthea, circ, counsel, agouti, oscillation, year,
+Nearest to more:  less, most, very, acapulco, jati, corollary, ursus, confusing,
+Nearest to new:  joram, agouti, kapoor, microcebus, analogs, abet, strands, amalthea,
+Nearest to no:  any, trick, a, deontology, it, dasyprocta, stored, segregated,
+Nearest to five:  four, seven, eight, six, three, zero, nine, two,
+Nearest to if:  when, where, although, circ, ursus, since, delegations, but,
+Aveerage loss at step  92000  :   4.6612683512
+Aveerage loss at step  94000  :   4.72064898479
+Aveerage loss at step  96000  :   4.68881377745
+Aveerage loss at step  98000  :   4.5908322354
+Aveerage loss at step  100000  :   4.68793972135
+Nearest to used:  known, found, operatorname, agouti, microsite, coke, archie, mishnayot,
+Nearest to of:  in, globemaster, circ, same, including, payload, agouti, for,
+Nearest to history:  list, bckgr, dasyprocta, ursus, mehmed, recitative, asylum, barium,
+Nearest to there:  they, it, he, often, kriol, sometimes, which, but,
+Nearest to in:  during, at, on, globemaster, from, abet, ursus, thaler,
+Nearest to three:  five, four, six, seven, two, eight, ursus, dasyprocta,
+Nearest to also:  often, which, now, still, sometimes, not, usually, who,
+Nearest to have:  had, has, were, are, be, microsite, premierships, having,
+Nearest to d:  b, six, seven, jati, dasyprocta, lymphoma, eight, am,
+Nearest to state:  cebus, feeble, agouti, leipzig, kids, rites, jabbar, airshow,
+Nearest to time:  yoannis, microcebus, circ, agouti, amalthea, cebus, ursus, year,
+Nearest to more:  less, most, very, corollary, jati, carabiners, ursus, acapulco,
+Nearest to new:  joram, dumbarton, agouti, analogs, rgya, strands, bitumen, kapoor,
+Nearest to no:  any, trick, deontology, a, dasyprocta, stenella, cisco, it,
+Nearest to five:  four, seven, six, eight, three, zero, nine, circ,
+Nearest to if:  when, where, is, although, since, circ, ursus, but,
+(tf-rnn) @> 
