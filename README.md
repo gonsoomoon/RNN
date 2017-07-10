@@ -1,4 +1,6 @@
 # RNN Projects
+- (July 2017, word2vec folder)
+  Reproduce the skip-gram model for finding word similarity.
 - (June 2017, helloVoice folder) 
   Reproduce the voice recognition with 5 training and 2 test examples
 - (June 2017, count1s folder) 
