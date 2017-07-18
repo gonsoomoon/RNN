@@ -1,8 +1,8 @@
 # RNN Projects
 - (July 2017, word2vec folder)
-  Reproduce the skip-gram model for finding word similarity.
+  Reproduce the skip-gram model for finding word similarity.<a href="word2vec/Readme.txt" target="_self">(README)</a>
 - (June 2017, helloVoice folder) 
-  Reproduce the voice recognition with 5 training and 2 test examples
+  Reproduce the voice recognition with 5 training and 2 test examples <a href="helloVoice/Readme.txt" target="_self">(README)</a>
 - (June 2017, count1s folder) 
-  Count 1s of binary string with length 20 using LSTM. Refer to the folder count1s and <a href="count1s/Readme.pdf" target="_self">README</a>
+  Count 1s of binary string with length 20 using LSTM. Refer to the folder count1s <a href="count1s/Readme.pdf" target="_self">(README)</a>
   
