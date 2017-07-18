@@ -1,4 +1,5 @@
 # RNN Projects
+- (July 2017, miniCharRNN folder) Reproduce the character-level language model using RNN <a href="miniCharRNN/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (July 2017, word2vec folder)
   Reproduce the skip-gram model for finding word similarity.<a href="word2vec/Readme.txt" target="_self">(README)</a>
 - (June 2017, helloVoice folder) 
