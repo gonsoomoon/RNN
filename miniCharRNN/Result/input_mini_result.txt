@@ -1,0 +1,51 @@
+data has 28 characters, 13 unique.
+Seed, the first character: H
+Prediction: ----
+ rrawwtlded wcorrcutwaedauwe 
+----
+iteration 0, smooth_loss = 69.253632
+Seed, the first character: H
+Prediction: ----
+ ello world recurrent neural 
+----
+iteration 1000, smooth_loss = 25.938037
+Seed, the first character: H
+Prediction: ----
+ ello world recurrent neural 
+----
+iteration 2000, smooth_loss = 9.566160
+Seed, the first character: H
+Prediction: ----
+ ello world recurrent neural 
+----
+iteration 3000, smooth_loss = 3.533820
+Seed, the first character: H
+Prediction: ----
+ ello world recurrent neural 
+----
+iteration 4000, smooth_loss = 1.310756
+Seed, the first character: H
+Prediction: ----
+ ello world recurrent neural 
+----
+iteration 5000, smooth_loss = 0.490653
+Seed, the first character: H
+Prediction: ----
+ ello world recurrent neural 
+----
+iteration 6000, smooth_loss = 0.187427
+Seed, the first character: H
+Prediction: ----
+ ello world recurrent neural 
+----
+iteration 7000, smooth_loss = 0.074788
+Seed, the first character: H
+Prediction: ----
+ ello world recurrent neural 
+----
+iteration 8000, smooth_loss = 0.032542
+Seed, the first character: H
+Prediction: ----
+ ello world recurrent neural 
+----
+iteration 9000, smooth_loss = 0.016382
