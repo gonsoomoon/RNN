@@ -1,0 +1,136 @@
+@> python2 rnn_long_char_1.2.py 'data/simple.txt' 1 10 10 100  
+[Info] Input and Target by batch:  0 If you wan -> f you want
+[Info] Input and Target by batch:  10 t to build ->  to build 
+[Info] Input and Target by batch:  20  a ship, d -> a ship, do
+[Info] Input and Target by batch:  30 on't drum  -> n't drum u
+[Info] Input and Target by batch:  40 up people  -> p people t
+[Info] Input and Target by batch:  50 together t -> ogether to
+[Info] Input and Target by batch:  60 o collect  ->  collect w
+[Info] Input and Target by batch:  70 wood and d -> ood and do
+[Info] Input and Target by batch:  80 on't assig -> n't assign
+[Info] Input and Target by batch:  90 n them tas ->  them task
+[Info] Input and Target by batch:  100 ks and wor -> s and work
+[Info] Input and Target by batch:  110 k, but rat -> , but rath
+[Info] Input and Target by batch:  120 her teach  -> er teach t
+[Info] Input and Target by batch:  130 them to lo -> hem to lon
+[Info] Input and Target by batch:  140 ng for the -> g for the 
+[Info] Input and Target by batch:  150  endless i -> endless im
+[Info] Input and Target by batch:  160 mmensity o -> mensity of
+[Info] Input and Target by batch:  170 f the sea. ->  the sea. 
+[Info] inputFile:  data/simple.txt
+[Info] sentence:  If you want to build a ship, don't drum up people together to collect wood and don't assign them tasks and work, but rather teach them to long for the endless immensity of the sea. 
+[Info] data_size:  181
+[Info] vocabulary_size:  26
+[Info] hidden_size:  26
+[Info] num_classes:  26
+[Info] char_set:  [' ', "'", ',', '.', 'I', 'a', 'c', 'b', 'e', 'd', 'g', 'f', 'i', 'h', 'k', 'm', 'l', 'o', 'n', 'p', 's', 'r', 'u', 't', 'w', 'y']
+[Info] char_dic:  {' ': 0, "'": 1, ',': 2, '.': 3, 'I': 4, 'a': 5, 'c': 6, 'b': 7, 'e': 8, 'd': 9, 'g': 10, 'f': 11, 'i': 12, 'h': 13, 'k': 14, 'm': 15, 'l': 16, 'o': 17, 'n': 18, 'p': 19, 's': 20, 'r': 21, 'u': 22, 't': 23, 'w': 24, 'y': 25}
+[Info] sequence_length:  10
+[Info] moving window:  10
+[Info] epoch:  100
+[Info] lstm level:  1
+[Info] batch size: 18
+==================Loss value==================
+0  loss:  3.2612
+1  loss:  2.98985
+2  loss:  3.24734
+3  loss:  2.91445
+4  loss:  2.83669
+5  loss:  2.80899
+6  loss:  2.73436
+7  loss:  2.62432
+8  loss:  2.49844
+9  loss:  2.34861
+10  loss:  2.20102
+11  loss:  2.05192
+12  loss:  1.88793
+13  loss:  1.74264
+14  loss:  1.57942
+15  loss:  1.44288
+16  loss:  1.29282
+17  loss:  1.15189
+18  loss:  1.01953
+19  loss:  0.860027
+20  loss:  0.736279
+21  loss:  0.624064
+22  loss:  0.544276
+23  loss:  0.459464
+24  loss:  0.391062
+25  loss:  0.335229
+26  loss:  0.285068
+27  loss:  0.235296
+28  loss:  0.198384
+29  loss:  0.163682
+30  loss:  0.144872
+31  loss:  0.130373
+32  loss:  0.116337
+33  loss:  0.104777
+34  loss:  0.0971132
+35  loss:  0.0902509
+36  loss:  0.085113
+37  loss:  0.0807106
+38  loss:  0.0774979
+39  loss:  0.0758413
+40  loss:  0.0739943
+41  loss:  0.0716532
+42  loss:  0.0707552
+43  loss:  0.0688162
+44  loss:  0.0679882
+45  loss:  0.0671544
+46  loss:  0.0665763
+47  loss:  0.0660325
+48  loss:  0.0653772
+49  loss:  0.064806
+50  loss:  0.0644822
+51  loss:  0.0640883
+52  loss:  0.0639023
+53  loss:  0.0634474
+54  loss:  0.0633218
+55  loss:  0.0629434
+56  loss:  0.0628246
+57  loss:  0.0626129
+58  loss:  0.0624381
+59  loss:  0.0623576
+60  loss:  0.0621629
+61  loss:  0.0621017
+62  loss:  0.0619339
+63  loss:  0.0618548
+64  loss:  0.0617555
+65  loss:  0.0616682
+66  loss:  0.0616274
+67  loss:  0.0615327
+68  loss:  0.0615114
+69  loss:  0.0614148
+70  loss:  0.0613788
+71  loss:  0.0613046
+72  loss:  0.0612829
+73  loss:  0.0612385
+74  loss:  0.0612149
+75  loss:  0.0611599
+76  loss:  0.0611218
+77  loss:  0.0610812
+78  loss:  0.0610716
+79  loss:  0.0610421
+80  loss:  0.0610209
+81  loss:  0.0609761
+82  loss:  0.0609609
+83  loss:  0.0609353
+84  loss:  0.0609266
+85  loss:  0.0608988
+86  loss:  0.0608787
+87  loss:  0.0608612
+88  loss:  0.0608431
+89  loss:  0.0608309
+90  loss:  0.0608078
+91  loss:  0.0607962
+92  loss:  0.0607818
+93  loss:  0.0607683
+94  loss:  0.0607565
+95  loss:  0.0607384
+96  loss:  0.0607278
+97  loss:  0.0607172
+98  loss:  0.0607034
+99  loss:  0.0606928
+==================Prediction==================
+f you wantoto build a ship, don't arum up people together toncollect wood and don't assign them task, and work, but rather teach toem to lon  for the andless immensity of the sea. 
+
