@@ -1,4 +1,5 @@
 # RNN Projects
+- (Aug 2017, word2vec_v2 folder) autoencoder with word2vec <a href="word2vec_v2/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (Aug 2017, autoencoder folder) autoencoder using batch normalization <a href="autoencoder/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (Aug 2017, stockPrediction folder) Stock prediction using RNN LSTM <a href="stockPrediction/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (July 2017, miniCharRNNWithLSTMStacking folder) The character-level language model using RNN LSTM Stacking <a href="miniCharRNNWithLSTMStacking/ProjectReport.pdf" target="_self"> (Project Report) </a>
