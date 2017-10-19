@@ -1,4 +1,5 @@
 # RNN Projects
+- (Oct 2017, pretrainedEmbeddings folder) Comparison with a pre-trained embedding and an random initialization for a text classification <a href="pretrainedEmbeddings/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (Oct 2017, simulatedStackedLSTM folder) A text classification on LSTM using simulated input <a href="simulatedStackedLSTM/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (Sep 2017, sentimentalAnalysis folder) sentimenal analysis with the dropout LSTM <a href="sentimentalAnalysis/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (Aug 2017, word2vec_v2 folder) autoencoder with word2vec <a href="word2vec_v2/ProjectReport.pdf" target="_self"> (Project Report) </a>
