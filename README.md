@@ -13,4 +13,9 @@
   Reproduce the voice recognition with 5 training and 2 test examples <a href="helloVoice/Readme.txt" target="_self">(README)</a>
 - (June 2017, count1s folder) 
   Count 1s of binary string with length 20 using LSTM. Refer to the folder count1s <a href="count1s/Readme.pdf" target="_self">(README)</a>
+# Master Papers
+- (May 2017, master_paper folder) Towards Rational Feature Selection Goal Oriented Data Selection Approach <a href="master_paper/Towards_Rational_Feature_Selection_Goal-Oriented_Data_Selection_Approach.pdf" target="_self"> (Class Paper) </a>
+- (Dec 2016, master_paper folder) Allstate Claim Severity on DNN (Deep Neural Network) <a href="master_paper/Paper-Allstate-Claim-Severity.pdf" target="_self"> (Class Paper) </a>
+- (May 2016, master_paper folder) Simple Answering Questions System using the Stanford Parser <a href="master_paper/Paper-simple_answering_questions_system.pdf" target="_self"> (Class Paper) </a>
+
   
