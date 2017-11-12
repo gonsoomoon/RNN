@@ -1,4 +1,4 @@
-# RNN Projects
+<center># RNN Projects</center>
 - (Oct 2017, pretrainedEmbeddings folder) Comparison with a pre-trained embedding and an random initialization for a text classification <a href="pretrainedEmbeddings/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (Oct 2017, simulatedStackedLSTM folder) A text classification on LSTM using simulated input <a href="simulatedStackedLSTM/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (Sep 2017, sentimentalAnalysis folder) sentimenal analysis with the dropout LSTM <a href="sentimentalAnalysis/ProjectReport.pdf" target="_self"> (Project Report) </a>
@@ -13,7 +13,7 @@
   Reproduce the voice recognition with 5 training and 2 test examples <a href="helloVoice/Readme.txt" target="_self">(README)</a>
 - (June 2017, count1s folder) 
   Count 1s of binary string with length 20 using LSTM. Refer to the folder count1s <a href="count1s/Readme.pdf" target="_self">(README)</a>
-# Master Papers
+<center># Master Papers</center>
 - (May 2017, master_paper folder) Towards Rational Feature Selection Goal Oriented Data Selection Approach <a href="master_paper/Towards_Rational_Feature_Selection_Goal-Oriented_Data_Selection_Approach.pdf" target="_self"> (Class Paper) </a>
 - (Dec 2016, master_paper folder) Allstate Claim Severity on DNN (Deep Neural Network) <a href="master_paper/Paper-Allstate-Claim-Severity.pdf" target="_self"> (Class Paper) </a>
 - (May 2016, master_paper folder) Simple Answering Questions System using the Stanford Parser <a href="master_paper/Paper-simple_answering_questions_system.pdf" target="_self"> (Class Paper) </a>
