@@ -1,4 +1,5 @@
 # RNN Projects
+- (April 2018, electricity_prediction folder) On comparision between state and stateless LSTM, electricity consumption prediction <a href="electricity_prediction/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (Mar 2018, kaggle-toxic folder) comments classification problem on the Kaggle toxic competition <a href="kaggle-toxic/Readme.txt" target="_self"> (Readme file) </a>
 - (Nov 2017, attention-sentiment folder) Attentional interface for interpretability on sentimental analysis <a href="attention-sentiment/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (Oct 2017, pretrainedEmbeddings folder) Comparison with a pre-trained embedding and an random initialization for a text classification <a href="pretrainedEmbeddings/ProjectReport.pdf" target="_self"> (Project Report) </a>
