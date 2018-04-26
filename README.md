@@ -1,4 +1,5 @@
-# RNN Projects
+# Deep Learning (RNN) and ML
+- (April 2018) Online shopping customer classificaton problem <a href="machine_learning/online_customer_classification/Architecture_Customer_Classification.pdf" target="_self"> (Outline Report) </a>(machine_learning/online_customer_classification folder)
 - (April 2018, electricity_prediction folder) On comparision between state and stateless LSTM, electricity consumption prediction <a href="electricity_prediction/ProjectReport.pdf" target="_self"> (Project Report) </a>
 - (Mar 2018, kaggle-toxic folder) comments classification problem on the Kaggle toxic competition <a href="kaggle-toxic/Readme.txt" target="_self"> (Readme file) </a>
 - (Nov 2017, attention-sentiment folder) Attentional interface for interpretability on sentimental analysis <a href="attention-sentiment/ProjectReport.pdf" target="_self"> (Project Report) </a>
