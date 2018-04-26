@@ -1,0 +1,10 @@
+NLTK Lookup Error
+
+https://stackoverflow.com/questions/35861482/nltk-lookup-error
+
+>>> import nltk
+>>> nltk.download('averaged_perceptron_tagger')
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /Users/gonsoomoon/nltk_data...
+[nltk_data]   Unzipping taggers/averaged_perceptron_tagger.zip.
+True
