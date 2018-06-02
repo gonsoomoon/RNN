@@ -7,6 +7,8 @@ sales-of-shampoo-over-a-three-ye.csv
 - shampoo sales data
 daily-minimum-temperatures-in-me.csv
 - Australia temperature data
+timeseries.txt
+- data file for the tutorial_datetime_timezone.ipynb in the practice folder
 
 =============================
 util folder
@@ -25,6 +27,8 @@ Intro to autocorrelation.ipynb
 time_series_to_supervised_learning_problem.ipynb
 - handles converting time-series data to supervised problem
 intro_acf_pacf.ipynb
- - handles acf() and pacf()
+- handles acf() and pacf()
+tutorial_datetime_timezone.ipynb
+- loads date time string, change to a time zone and aggregate 
 
 
