@@ -30,5 +30,7 @@ intro_acf_pacf.ipynb
 - handles acf() and pacf()
 tutorial_datetime_timezone.ipynb
 - loads date time string, change to a time zone and aggregate 
+tutorial_basic_time_series_visualization.ipynb
+- shows basic time-series visualization
 
 
