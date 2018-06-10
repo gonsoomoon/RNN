@@ -15,6 +15,8 @@ tutorial_basic_time_series_visualization.ipynb
 - shows basic time-series visualization
 tutorial_advanced_time_series_visualization.ipynb
 - handles resampling, asfreq of samsung security, grouping by weekend and hour
+in_depth_linear_regression.ipynb
+- includes linear regression, regularization (L1, L2), bootsrap resampling
 
 
 =============================
@@ -30,6 +32,8 @@ daily-minimum-temperatures-in-me.csv
 - Australia temperature data
 timeseries.txt
 - data file for the tutorial_datetime_timezone.ipynb in the practice folder
+seattle_weather.csv
+- seattle temperature, precipitation and wind strength
 
 =============================
 util folder
