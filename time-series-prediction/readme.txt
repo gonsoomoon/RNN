@@ -19,8 +19,10 @@ in_depth_linear_regression.ipynb
 - includes linear regression, regularization (L1, L2), bootsrap resampling
 baseline-shampoo_sales.ipynb
 - makes a persistence model
-ARIMA_shampoo_sale.ipynb
+ARIMA_shampoo_sale.ipynbs
 - makes a basic ARIMA model on shampoo sale data
+preprocess-hour-series-feature-bicycle.ipynb
+- make time-series feature set for supervised learning
 
 
 =============================
