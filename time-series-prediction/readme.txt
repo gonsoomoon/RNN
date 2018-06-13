@@ -23,6 +23,8 @@ ARIMA_shampoo_sale.ipynbs
 - makes a basic ARIMA model on shampoo sale data
 preprocess-hour-series-feature-bicycle.ipynb
 - make time-series feature set for supervised learning
+tutorial_time_series_neural_network.ipynb
+- has NN, LSTM implementation on airport passenger data file
 
 
 =============================
@@ -40,6 +42,8 @@ timeseries.txt
 - data file for the tutorial_datetime_timezone.ipynb in the practice folder
 seattle_weather.csv
 - seattle temperature, precipitation and wind strength
+airport-passenger
+- airport passenger data file
 
 =============================
 util folder
