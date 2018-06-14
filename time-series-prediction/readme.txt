@@ -25,6 +25,8 @@ preprocess-hour-series-feature-bicycle.ipynb
 - make time-series feature set for supervised learning
 tutorial_time_series_neural_network.ipynb
 - has NN, LSTM implementation on airport passenger data file
+tutorial-mlp-shampoo_sales.ipynb
+- experiment time-series on multiple perceptron network varing # of neurons and epochs
 
 
 =============================
