@@ -3,6 +3,8 @@ The following explains code and resource files
 =============================
 practice folder
 =============================
+tutorial_multi-step_time_LSTM.ipynb
+- multi-step prediction on shampoo data set
 Intro to autocorrelation.ipynb
 - explains what autocorrelation and partial autocorrelation
 time_series_to_supervised_learning_problem.ipynb
