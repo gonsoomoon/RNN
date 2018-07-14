@@ -1,6 +1,15 @@
 The following explains code and resource files
 
 =============================
+electricity folder
+=============================
+multiple_lags_1_presteps_lstm_v0.1.ipynb
+- stageful LSTM with multiple lags and one-step prediction on electricity spending
+electricity_input.ipynb
+- From an original file, extract each person’s electric spending
+
+
+=============================
 practice folder
 =============================
 tutorial_multi-step_time_LSTM.ipynb
@@ -34,6 +43,8 @@ tutorial-mlp-shampoo_sales.ipynb
 =============================
 input folder
 =============================
+electricity
+- three people’s electric spendings: elect_250.csv, elect_235.csv, elect_37.csv
 samsung_20180608.csv
 - Samsung security
 FremontBridge.csv
@@ -52,10 +63,19 @@ airport-passenger
 =============================
 util folder
 =============================
+general_util.py
+- utility library
+input_preprocess.py
+- input-related library
+prediction.py
+- prediction-related library
 ts_input.py
  - has an input() for time-series data
 util_test.py
  - tests files in the util folder
 
-
-
+=============================
+result folder
+=============================
+experiment_log_v0.2
+- experiment log
