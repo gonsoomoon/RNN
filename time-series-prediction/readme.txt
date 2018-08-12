@@ -3,6 +3,8 @@ The following explains code and resource files
 =============================
 electricity folder
 =============================
+multiple_lags_multiple_presteps_2_lstm_v0.1.ipynb
+- Two stacked LSTM with a class of parameters
 multiple_lags_1_presteps_lstm_v0.1.ipynb
 - stageful LSTM with multiple lags and one-step prediction on electricity spending
 electricity_input.ipynb
@@ -63,6 +65,17 @@ airport-passenger
 =============================
 util folder
 =============================
+fresh_general_util.py
+- utility library
+fresh_input_preprocess.py
+- input-related library
+fresh_prediction.py
+- prediction-related library
+fresh_parameters.py
+- has parameter class
+fresh_model.py
+- model library
+
 general_util.py
 - utility library
 input_preprocess.py
@@ -77,5 +90,7 @@ util_test.py
 =============================
 result folder
 =============================
+experiment_log_v0.3
+- experiment log
 experiment_log_v0.2
 - experiment log
