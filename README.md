@@ -1,5 +1,5 @@
 # Deep Learning (RNN) and ML
-- (Oct 2018) Learning a feature with an identifier on LSTM <a href="time-series-prediction/ProjectReport" target="_self"> project report </a>(time-series-prediction folder)
+- (Oct 2018) Learning a feature with an identifier on LSTM <a href="time-series-prediction/ProjectReport" target="_self"> (project report) </a>(time-series-prediction folder)
 - (May 2018) Gaussian Mixture Model Fundamental <a href="machine_learning/gmm_fundamental/gmm_fundamental.ipynb" target="_self"> (gmm fundamental notebook) </a>(machine_learning/gmm_fundamental folder)
 - (April 2018) Online shopping customer classificaton problem <a href="machine_learning/online_customer_classification/Architecture_Customer_Classification.pdf" target="_self"> (Outline Report) </a>(machine_learning/online_customer_classification folder)
 - (April 2018, electricity_prediction folder) On comparision between state and stateless LSTM, electricity consumption prediction <a href="electricity_prediction/ProjectReport.pdf" target="_self"> (Project Report) </a>
