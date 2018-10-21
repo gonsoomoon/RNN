@@ -3,6 +3,20 @@ The following explains code and resource files
 =============================
 electricity folder
 =============================
+multi/e235_multi_feature_v01.ipynb
+- with two features, making a model on two lstm layers
+multi/e235_e250_e252_multi_feature_v01.ipynb
+- with two features, making a model on three people
+multi/e235_e250_e252_multi_feature_v02.ipynb
+- adding more test data after loading a pre-trained model
+multi/inference_multi_feature_v01.ipynb
+- inference function from the model that the e235_multi_feature_v01.ipynb creates
+single_feature/e235_lstm_v01.ipynb
+- with 24 lags and 24 presses on two lstm layers
+single_feature/e235_e250_e252_lstm_v01.ipynb
+- On three people data, making a model
+single_feature/24_lags_24_presteps_2_lstm_infer_v01.ipynb
+- inference from the model that e235_lstm_v01.ipynb creates
 multiple_lags_multiple_presteps_2_lstm_v0.1.ipynb
 - Two stacked LSTM with a class of parameters
 multiple_lags_1_presteps_lstm_v0.1.ipynb
@@ -14,6 +28,12 @@ electricity_input.ipynb
 =============================
 practice folder
 =============================
+tutorial_add_numbers.ipynb
+- adding two numbers on seq2seq
+tutorial_multvariate_lstm.ipynb
+- multivariate features with last
+tutorial_category_embedding_v0.1.ipynb
+- several ways of category embedding
 tutorial_multi-step_time_LSTM.ipynb
 - multi-step prediction on shampoo data set
 Intro to autocorrelation.ipynb
@@ -47,6 +67,7 @@ input folder
 =============================
 electricity
 - three people’s electric spendings: elect_250.csv, elect_235.csv, elect_37.csv
+- three people’s electric spendings with person id: elect_250w_id.csv, elect_235w_id.csv, elect_37w_id.csv
 samsung_20180608.csv
 - Samsung security
 FremontBridge.csv

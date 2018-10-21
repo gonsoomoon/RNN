@@ -8,8 +8,7 @@ Created on Sun Jul  8 14:29:47 2018
 
 import pandas as pd
 from pandas import Series
-import numpy
-import numpy as np
+
 
 import time
 def time_start():

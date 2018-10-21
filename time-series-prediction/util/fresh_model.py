@@ -9,6 +9,37 @@ import matplotlib.pyplot as plt
 import seaborn;seaborn.set()
 plt.rcParams["figure.figsize"] = [12, 4]
 
+# Save a model
+from keras.models import model_from_json
+def save_model(model, param):
+   model_json = model.to_json()
+   model_file_path =  param.model_json
+   model_weight_path =  param.model_weight
+
+   model_file_path = param.model_folder + param.model_json
+   model_weight_path = param.model_folder + param.model_weight
+   
+   with open(model_file_path, "w") as json_file:
+      json_file.write(model_json)
+   model.save_weights(model_weight_path)
+   print("Saved model to disk")
+   
+# Load a model
+def load_model(param):
+   model_file_path = param.model_folder + param.model_json   
+   model_weight_path = param.model_folder + param.model_weight   
+   json_file = open(model_file_path)
+   loaded_model_json = json_file.read()
+   json_file.close()
+   loaded_model = model_from_json(loaded_model_json)
+   # load weights into new model
+   loaded_model.load_weights(model_weight_path)
+   loaded_model.compile(loss='mean_squared_error', optimizer='adam')
+   
+   return loaded_model
+   
+      
+   
 
 # During a learing process, show loss values with a train and validation data
 def display_loss_train(history_list):
