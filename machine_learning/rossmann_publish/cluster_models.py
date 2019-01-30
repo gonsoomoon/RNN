@@ -1,7 +1,7 @@
 import pickle, os
-os.chdir("/Users/gonsoomoon/Documents/DeepLearning/kaggle/rossmann/entity-embedding-rossmann-master")
+#os.chdir("/Users/gonsoomoon/Documents/DeepLearning/kaggle/rossmann/entity-embedding-rossmann-master")
 import sys
-sys.path.append("/Users/gonsoomoon/Documents/DeepLearning/kaggle/rossmann/entity-embedding-rossmann-master")
+#sys.path.append("/Users/gonsoomoon/Documents/DeepLearning/kaggle/rossmann/entity-embedding-rossmann-master")
 # from cluster_models import *
 
 from sklearn.preprocessing import StandardScaler

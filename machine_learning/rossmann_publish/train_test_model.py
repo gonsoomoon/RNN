@@ -2,7 +2,7 @@ import pickle
 import numpy
 numpy.random.seed(123)
 import os
-os.chdir("/Users/gonsoomoon/Documents/DeepLearning/kaggle/rossmann/publish")
+os.chdir("/Users/gonsoomoon/Documents/DeepLearning/kaggle/rossmann/rossmann_publish")
 
 from models import Model_Util
 from models import *
@@ -70,4 +70,4 @@ class TRAIN_DRIVER():
         return result
 
 
-TRAIN_DRIVER()
+# TRAIN_DRIVER()

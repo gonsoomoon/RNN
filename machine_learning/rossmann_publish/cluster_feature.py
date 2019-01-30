@@ -1,6 +1,6 @@
 import pickle, os
 import pandas as pd
-#os.chdir("/Users/gonsoomoon/Documents/DeepLearning/kaggle/rossmann/entity-embedding-rossmann-master")
+os.chdir("/Users/gonsoomoon/Documents/DeepLearning/kaggle/rossmann/rossmann_publish")
 # from cluster_feature import *
 
 

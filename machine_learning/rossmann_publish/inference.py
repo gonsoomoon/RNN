@@ -111,8 +111,8 @@ class Inference():
         result = np.sum(relative_err)
         return result
 
-inference = Inference()
-inference.inference_val_data()
-inference.inference_no_storeid()
+# inference = Inference()
+# inference.inference_val_data()
+# inference.inference_no_storeid()
 
 

@@ -24,9 +24,9 @@ class SupervisedFeature():
                 fl = self.feature_list(record)
                 train_data_X.append(fl)
                 train_data_y.append(int(record['Sales']))
-        print("Number of train datapoints: ", len(train_data_y))
+        print("Number of train data points: ", len(train_data_y))
 
-        print(min(train_data_y), max(train_data_y))
+        # print(min(train_data_y), max(train_data_y))
 
         full_X = train_data_X
         full_X = np.array(full_X)
@@ -50,7 +50,7 @@ class SupervisedFeature():
 
         with open(FEATURE_TRAIN_DATA, 'wb') as f:
             pickle.dump((train_data_X, train_data_y), f, -1)
-            print(train_data_X[0], train_data_y[0])
+            # print(train_data_X[0], train_data_y[0])
 
     def feature_list(self, record):
         dt = datetime.strptime(record['Date'], '%Y-%m-%d')
@@ -77,4 +77,4 @@ class SupervisedFeature():
                 ]
 
 
-SupervisedFeature()
+# SupervisedFeature()

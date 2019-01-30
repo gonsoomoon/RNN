@@ -21,7 +21,7 @@ class InputFile():
                 data = self.csv2dicts(data)
                 data = data[::-1]
                 pickle.dump(data, f, -1)
-                print(data[:3])
+                print('train data: \n {}: '.format(data[:3]))
 
         with open(store_data) as csvfile, open(store_states) as csvfile2:
             data = csv.reader(csvfile, delimiter=',')
@@ -35,7 +35,7 @@ class InputFile():
                     val['State'] = state['State']
                     data[index] = val
                 pickle.dump(data, f, -1)
-                print(data[:2])
+                print('store data: \n {}'.format(data[:2]))
 
     def csv2dicts(self, csvfile):
         data = []
@@ -43,7 +43,7 @@ class InputFile():
         for row_index, row in enumerate(csvfile):
             if row_index == 0:
                 keys = row
-                print(row)
+                #print(row)
                 continue
             # if row_index % 10000 == 0:
             #     print(row_index)
@@ -58,6 +58,6 @@ class InputFile():
                     x[key] = replace_str
             data[i] = x
 
-InputFile()
+# InputFile()
 
 
