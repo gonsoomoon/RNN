@@ -122,13 +122,14 @@ class GAN():
             # Train the generator (to have the discriminator label samples as valid)
             g_loss = self.combined.train_on_batch(noise, valid)
 
-            # Plot the progress
-            print ('%d [D loss: %f, acc.: %.2f%%] [G loss: %f]' % (epoch, d_loss[0], 100 * d_loss[1], g_loss))
 
             # If at save interval => save generated image samples
             if epoch % sample_interval == 0:
+                # Plot the progress
+                print('%d [D loss: %f, acc.: %.2f%%] [G loss: %f]' % (epoch, d_loss[0], 100 * d_loss[1], g_loss))
+
                 self.sample_images(epoch)
-                ()
+
     def sample_images(self, epoch):
         r, c = 5, 5
         noise = np.random.normal(0, 1, (r * c, self.latent_dim))
@@ -147,12 +148,12 @@ class GAN():
         fig.savefig("images/%d.png" % epoch)
         plt.close()
 
-import time
-if __name__ == '__main__':
-    gan = GAN()
-    start = time.time()
-    gan.train(epochs=300, batch_size=32, sample_interval=200)
-    end = time.time()
-    print("Elapsed Time: %.2f minutes" % ((end-start)/60))
+# import time
+# if __name__ == '__main__':
+#     gan = GAN()
+#     start = time.time()
+#     gan.train(epochs=300, batch_size=32, sample_interval=200)
+#     end = time.time()
+#     print("Elapsed Time: %.2f minutes" % ((end-start)/60))
 
 
