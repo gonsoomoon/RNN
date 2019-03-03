@@ -1,0 +1,17 @@
+2019-03-03 19:53:05,459 - python_logging - INFO - Completed configuring logger()!
+2019-03-03 19:53:05,463 - python_logging.first_class - WARNING - Incrementing number!
+2019-03-03 19:53:05,463 - python_logging.first_class - INFO - Still incrementing number!!
+2019-03-03 19:53:05,463 - python_logging.first_class - WARNING - Incrementing number!
+2019-03-03 19:53:05,463 - python_logging.first_class - INFO - Still incrementing number!!
+2019-03-03 19:53:05,463 - python_logging.first_class - WARNING - Clearing number!
+2019-03-03 19:53:05,463 - python_logging.first_class - INFO - Still clearing number!!
+2019-03-03 19:53:05,463 - python_logging.second_class - WARNING - Enabling system!
+2019-03-03 19:53:05,463 - python_logging.second_class - INFO - Still enabling system!!
+2019-03-03 19:53:05,463 - python_logging.second_class - WARNING - Disabling system!
+2019-03-03 19:53:05,464 - python_logging.second_class - INFO - Still disabling system!!
+2019-03-03 19:53:05,464 - python_logging.first_class - INFO - John raised an error
+2019-03-03 19:53:05,464 - python_logging.first_class - ERROR - Failed to open file
+Traceback (most recent call last):
+  File "/Users/gonsoomoon/Documents/DeepLearning/gan/practice/python_logging/first_class.py", line 29, in show_captue_exception
+    open('/path/to/does/not/exist', 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/path/to/does/not/exist'
